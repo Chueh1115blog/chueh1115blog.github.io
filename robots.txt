@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://Chueh1115blog/sitemap.xml
+Sitemap: https://Chueh1115blog.github.io/sitemap.xml
