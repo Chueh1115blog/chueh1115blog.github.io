@@ -1,22 +1,30 @@
              
         @font-face {
-          font-family: 'chenyuluoyanmono';
-          src: url('../dynamic/fonts/chenyuluoyanmono/chenyuluoyanmono.woff2') format('woff2');
+          font-family: 'iansui';
+          src: url('../dynamic/fonts/iansui/iansui.woff2') format('woff2');
+          font-weight: 100 900;
+          font-display: swap;
+          font-style: normal;
+        }
+                   
+        @font-face {
+          font-family: 'boutiquebitmap';
+          src: url('../dynamic/fonts/boutiquebitmap/boutiquebitmap.woff2') format('woff2');
           font-weight: 100 900;
           font-display: swap;
           font-style: normal;
         }
       
     :root {
-      --body-font:          'chenyuluoyanmono', serif;
-      --heading-font:       undefined;
+      --body-font:          'iansui', serif;
+      --heading-font:       'boutiquebitmap', serif;
       --logo-font:          var(--heading-font);
-      --menu-font:          var(--body-font);
-      --font-weight-normal: 400; 
-      --font-weight-bold:   700; 
+      --menu-font:          var(--heading-font);
+      --font-weight-normal: 601; 
+      --font-weight-bold:   900; 
       --line-height:        1.65;
       --letter-spacing:     0em; 
-      --headings-weight:    700;
+      --headings-weight:    900;
       --headings-transform: none;   
       --headings-style:     normal;
       --headings-letter-spacing: 0em;
@@ -2369,11 +2377,7 @@ hr::before,
          img.is-loaded {
                opacity: 1;
                transition: opacity .6s cubic-bezier(.215,.61,.355,1), transform .2s ease-out!important; 
-         }@import url("https://font.emtech.cc/css/jfOpenHuninn");
- 
-body {
-    font-family: "jfOpenHuninn", sans-serif;
-}
+         }
 /* 隱藏文章的社群分享區塊 */
 .post__share, .post__share-caption, .share, [class*="share"] {
     display: none !important;
